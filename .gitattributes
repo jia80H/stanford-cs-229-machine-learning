@@ -1,0 +1,7 @@
+# This file controls how Git handles files in your repository.
+# It's very important to understand how Git works in order to
+# take full advantage of it.
+# See the Pro Git book for a good introduction to Git:
+# http://git-scm.com/book/en/Git-Basics-Viewing-Your-Repository
+# The following line will tell Git to use the filter "lfs" for
+*.pdf filter=lfs diff=lfs merge=lfs -text
